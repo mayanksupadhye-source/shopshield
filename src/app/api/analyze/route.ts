@@ -4,6 +4,7 @@ import { z } from 'zod';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
+export const maxDuration = 30;
 
 const RequestSchema = z.object({
   url: z
